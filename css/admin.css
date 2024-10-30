@@ -1,0 +1,72 @@
+#clrf-fields-container {
+    margin-top: 20px;
+}
+
+#clrf-new-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#clrf-field-label {
+    width: 200px;
+    padding: 5px;
+}
+
+#clrf-field-type {
+    width: 150px;
+    padding: 5px;
+}
+
+#clrf-add-field {
+    padding: 5px 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#clrf-add-field:hover {
+    background-color: #005177;
+}
+
+#clrf-fields-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.clrf-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.clrf-delete-field {
+    color: #a00;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.clrf-delete-field:hover {
+    color: #d00;
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form .submit {
+    text-align: left;
+}
